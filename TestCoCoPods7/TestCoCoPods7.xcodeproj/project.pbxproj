@@ -16,6 +16,7 @@
 		CC403D611DE7EFC900912F9E /* TestCoCoPods7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC403D601DE7EFC900912F9E /* TestCoCoPods7Tests.m */; };
 		CC403D6C1DE7EFC900912F9E /* TestCoCoPods7UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC403D6B1DE7EFC900912F9E /* TestCoCoPods7UITests.m */; };
 		CC403DBB1DE7FE5C00912F9E /* CZCTestCode.m in Sources */ = {isa = PBXBuildFile; fileRef = CC403DBA1DE7FE5C00912F9E /* CZCTestCode.m */; };
+		CC403DC21DE82B7900912F9E /* OtherClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CC403DC11DE82B7900912F9E /* OtherClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		CC403D6D1DE7EFC900912F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC403DB91DE7FE5C00912F9E /* CZCTestCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZCTestCode.h; sourceTree = "<group>"; };
 		CC403DBA1DE7FE5C00912F9E /* CZCTestCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZCTestCode.m; sourceTree = "<group>"; };
+		CC403DC01DE82B7900912F9E /* OtherClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherClass.h; sourceTree = "<group>"; };
+		CC403DC11DE82B7900912F9E /* OtherClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		CC403D451DE7EFC900912F9E /* TestCoCoPods7 */ = {
 			isa = PBXGroup;
 			children = (
+				CC403DBF1DE82B7900912F9E /* OtherClasses */,
 				CC403DB81DE7FE5C00912F9E /* Classes */,
 				CC403D491DE7EFC900912F9E /* AppDelegate.h */,
 				CC403D4A1DE7EFC900912F9E /* AppDelegate.m */,
@@ -151,6 +155,15 @@
 				CC403DBA1DE7FE5C00912F9E /* CZCTestCode.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		CC403DBF1DE82B7900912F9E /* OtherClasses */ = {
+			isa = PBXGroup;
+			children = (
+				CC403DC01DE82B7900912F9E /* OtherClass.h */,
+				CC403DC11DE82B7900912F9E /* OtherClass.m */,
+			);
+			path = OtherClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +303,7 @@
 				CC403D4B1DE7EFC900912F9E /* AppDelegate.m in Sources */,
 				CC403D481DE7EFC900912F9E /* main.m in Sources */,
 				CC403DBB1DE7FE5C00912F9E /* CZCTestCode.m in Sources */,
+				CC403DC21DE82B7900912F9E /* OtherClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
