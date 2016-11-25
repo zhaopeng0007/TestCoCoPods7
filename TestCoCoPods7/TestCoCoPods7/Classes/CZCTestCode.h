@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface CZCTestCode : NSObject
+- (void)testSystemOutOne;
+- (void)testSystemOutTwo;
+- (void)testSystemOutThree;
+- (void)testSystemOutFour;
 
 @end

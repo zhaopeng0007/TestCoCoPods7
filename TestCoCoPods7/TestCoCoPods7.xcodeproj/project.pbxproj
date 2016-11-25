@@ -15,6 +15,7 @@
 		CC403D561DE7EFC900912F9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC403D541DE7EFC900912F9E /* LaunchScreen.storyboard */; };
 		CC403D611DE7EFC900912F9E /* TestCoCoPods7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC403D601DE7EFC900912F9E /* TestCoCoPods7Tests.m */; };
 		CC403D6C1DE7EFC900912F9E /* TestCoCoPods7UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC403D6B1DE7EFC900912F9E /* TestCoCoPods7UITests.m */; };
+		CC403DBB1DE7FE5C00912F9E /* CZCTestCode.m in Sources */ = {isa = PBXBuildFile; fileRef = CC403DBA1DE7FE5C00912F9E /* CZCTestCode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CC403D671DE7EFC900912F9E /* TestCoCoPods7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCoCoPods7UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC403D6B1DE7EFC900912F9E /* TestCoCoPods7UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCoCoPods7UITests.m; sourceTree = "<group>"; };
 		CC403D6D1DE7EFC900912F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC403DB91DE7FE5C00912F9E /* CZCTestCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZCTestCode.h; sourceTree = "<group>"; };
+		CC403DBA1DE7FE5C00912F9E /* CZCTestCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZCTestCode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		CC403D451DE7EFC900912F9E /* TestCoCoPods7 */ = {
 			isa = PBXGroup;
 			children = (
+				CC403DB81DE7FE5C00912F9E /* Classes */,
 				CC403D491DE7EFC900912F9E /* AppDelegate.h */,
 				CC403D4A1DE7EFC900912F9E /* AppDelegate.m */,
 				CC403D4C1DE7EFC900912F9E /* ViewController.h */,
@@ -138,6 +142,15 @@
 				CC403D6D1DE7EFC900912F9E /* Info.plist */,
 			);
 			path = TestCoCoPods7UITests;
+			sourceTree = "<group>";
+		};
+		CC403DB81DE7FE5C00912F9E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CC403DB91DE7FE5C00912F9E /* CZCTestCode.h */,
+				CC403DBA1DE7FE5C00912F9E /* CZCTestCode.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +289,7 @@
 				CC403D4E1DE7EFC900912F9E /* ViewController.m in Sources */,
 				CC403D4B1DE7EFC900912F9E /* AppDelegate.m in Sources */,
 				CC403D481DE7EFC900912F9E /* main.m in Sources */,
+				CC403DBB1DE7FE5C00912F9E /* CZCTestCode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestCoCoPods7/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.zhaopeng.TestCoCoPods7;
@@ -435,6 +450,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestCoCoPods7/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.zhaopeng.TestCoCoPods7;
@@ -507,6 +523,7 @@
 				CC403D721DE7EFC900912F9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC403D731DE7EFC900912F9E /* Build configuration list for PBXNativeTarget "TestCoCoPods7Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +532,7 @@
 				CC403D751DE7EFC900912F9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC403D761DE7EFC900912F9E /* Build configuration list for PBXNativeTarget "TestCoCoPods7UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +541,7 @@
 				CC403D781DE7EFC900912F9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

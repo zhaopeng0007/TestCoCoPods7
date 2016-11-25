@@ -9,5 +9,28 @@
 #import "CZCTestCode.h"
 
 @implementation CZCTestCode
+- (void)testSystemOutOne{
+
+    NSLog(@"this is testSystemOutOne");
+    
+}
+- (void)testSystemOutTwo{
+    
+    NSLog(@"this is testSystemOutTwo");
+
+
+}
+- (void)testSystemOutThree{
+
+    NSLog(@"this is testSystemOutThree");
+
+
+}
+- (void)testSystemOutFour{
+
+    NSLog(@"this is testSystemOutFour");
+
+
+}
 
 @end
