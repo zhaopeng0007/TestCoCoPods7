@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "TestCoCoPods7"
-s.version      = "1.0.6"
+s.version      = "1.0.7"
 s.summary      = "一个建立pod仓库的简单demo."
 s.description  = <<-DESC
 这只是一个建立pod仓库的简单demo，并没有实际的意思。教学使用。
@@ -15,7 +15,6 @@ s.public_header_files = 'TestCoCoPods7/TestCoCoPods7/Classes/*.h'
 
 s.subspec 'Classes' do |ss|
         ss.source_files         = 'TestCoCoPods7/TestCoCoPods7/Classes/**/*.{h,m}'
-	ss.prefix_header_file   = 'TestCoCoPods7/Classes//TestCoCoPods7.h'
   end
 
     s.subspec 'OtherClasses' do |ss|
